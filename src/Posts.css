@@ -1,0 +1,29 @@
+/* Posts.css */
+.posts {
+    display: flex;
+    flex-direction: column; /* Измените на column для отображения в одну колонку */
+    align-items: center; /* Выровнять элементы по центру */
+  }
+  
+  .post {
+    width: 100%; /* Измените на 100% для занятия всей ширины страницы */
+    border: 1px solid black;
+    border-radius: 0; /* Убираем углы */
+    margin-bottom: 50px; /* Добавьте нижний отступ 50px */
+    padding: 10px;
+    box-sizing: border-box;
+    position: relative; /* Добавляем для позиционирования кнопки */
+  }
+  
+  .details-button {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    border: none;
+    background-color: #007BFF;
+    color: white;
+    padding: 5px 10px;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
